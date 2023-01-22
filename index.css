@@ -426,6 +426,11 @@ h3 {
 /* CONTACT-Me End */
 
 
+#menu-checkbox:checked~body {
+    background-color: red;
+}
+
+
 /* RESPONSIVE Start */
 
 @media (max-width: 768px) {
