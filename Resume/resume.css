@@ -2,4 +2,148 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
+    letter-spacing: 0.3px;
+}
+
+::selection {
+    background-color: #00ffbb;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+a:hover {
+    color: #00ffbb;
+}
+
+.resume-container {
+    display: flex;
+}
+
+.resume-sub-container-1 {
+    width: 18vw;
+    box-sizing: border-box;
+    color: #ffffff;
+    /* background-color: var(--light-purple); */
+    background-color: #1a1a1a;
+    box-shadow: 0 0 12px 1px #000000;
+}
+
+.resume-sub-container-1>* {
+    margin: 0.9rem 0;
+}
+
+.info-heading {
+    background-color: #00000045;
+    padding: 0.6rem 0.6rem;
+    margin: 0.6rem 0;
+}
+
+.name-designation,
+.personal-info>* :not(.info-heading, #address-link),
+.skills :not(.info-heading),
+.progress-bars {
+    padding: 0.2rem 0.6rem;
+    margin: 0.09rem 0;
+}
+
+.name-designation {
+    text-align: center;
+}
+
+#address,
+#phone,
+#e-mail,
+#linkedin {
+    margin: 0.6rem 0;
+    position: relative;
+}
+
+#address-link a {
+    display: inline-block;
+}
+
+.progress-bars {
+    position: relative;
+    font-size: 15px;
+}
+
+.progress {
+    accent-color: var(--cyan);
+    width: 90%;
+    height: 18px;
+    margin: 1.2rem 0;
+    position: relative;
+}
+
+.resume-sub-container-2 {
+    width: calc(100vw - 18vw);
+    background-color: var(--dark);
+    box-sizing: border-box;
+    /* color: var(--white); */
+    color: var(--graish-white);
+    padding: 1.2rem 1.8rem;
+}
+
+#experience-container>hr,
+#education-container>hr,
+#certifications-container>hr,
+#interests-container>hr {
+    margin: 0.6rem 0;
+}
+
+.experience,
+.education,
+.certification,
+.interests {
+    display: flex;
+    position: relative;
+}
+
+.experience pre,
+.education pre,
+.certification pre,
+.interests pre {
+    width: 7.5%;
+    /* position: relative;
+    top: 12px; */
+}
+
+.experience pre,
+.education pre,
+.interests pre:not(.certification pre) {
+    width: 7.5%;
+    position: relative;
+    top: 12px;
+}
+
+.experienced-in>h3,
+.education-in>h3 {
+    margin: 0.6rem 0;
+    /* background-color: red; */
+    color: #ffffff;
+}
+
+.experience-list,
+.education-list,
+.certification-list,
+.interests-list {
+    margin-left: 15px;
+}
+
+.experience-list li,
+.education-list li,
+.certification-list li,
+.interests-list li {
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.interests-list {
+    margin-left: 107.1px;
 }

@@ -1,9 +1,14 @@
 :root {
     --white: #ffffff;
+    --graish-white: #d7d7d7;
     --primary-green: #00ff99;
+    --primary-green: hsl(156, 100%, 57%);
     --primary-green-transparent: #00ff994e;
     --secondary-green: #00b56d;
     --primary-blue: #00c2db;
+    --black: #00000041;
     --dark: #181818ef;
     --light-dark: #16161658;
+    --light-purple: #2c2a82;
+    --cyan: #00ffff;
 }
